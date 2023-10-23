@@ -1,0 +1,54 @@
+<div class="widget-container">
+  <div class="widget green">
+    <div class="icon">
+      <fa-icon [icon]="faLocation"></fa-icon>
+    </div>
+    <div class="value">
+      <div class="top">{{ totalTeacherCount }}</div>
+      <div class="bottom">
+        <button (click)="navigateToOtherComponent()">Today's' Followups</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="widget yellow">
+    <div class="icon">
+      <fa-icon [icon]="faLocation"></fa-icon>
+    </div>
+    <div class="value">
+      <div class="top">{{ totalBookCount }}</div>
+      <div class="bottom">
+        <button (click)="navigateToOtherComponent()">Tomorrow Followups</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="widget red">
+    <div class="icon">
+      <fa-icon [icon]="faLocation"></fa-icon>
+    </div>
+    <div class="value">
+      <div class="top">{{ totalStudentCount }}</div>
+      <div class="bottom">
+        <button (click)="navigateToOtherComponent()">Today Followups</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+

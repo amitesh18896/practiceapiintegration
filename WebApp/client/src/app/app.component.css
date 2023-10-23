@@ -1,0 +1,22 @@
+#parent {
+  background-color: lightblue;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 500px;
+  width: 600px;
+  margin: 10px;
+  display: inline-block;
+}
+
+
+#parents{
+  background-color: lightblue;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 500px;
+  width: 600px;
+  margin: 10px;
+  display: inline-block;
+}
